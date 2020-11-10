@@ -1,0 +1,49 @@
+<html>
+  <body style="background-color:brown;">
+
+
+<br>
+<br>
+<div style="text-align:center">
+  <div class ="heading1">
+    <div class ="heading2">
+  <h3>Contact us</h3>
+    </div>
+  <p>seats filling fast</p>
+  </div>
+    <mat-form-field class="example">
+      <input matInput placeholder="Enter Your name">
+    </mat-form-field>
+  <br>
+
+  <mat-form-field class ="example">
+    <input matInput placeholder="Enter email ID">
+
+  </mat-form-field>
+  <br>
+
+  <mat-form-field class="example">
+    <input matInput #message maxlength="256" placeholder="Type here">
+    <mat-hint align="start"><strong>Mention Your Query</strong> </mat-hint>
+    <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
+  </mat-form-field>
+<br>
+<br>
+<br>
+<div class="button-row">
+<button mat-raised-button color="primary">Submit</button>
+</div>
+
+<div class ="below">
+  <p><b>Timing:  </b>Mon-Fri: 6 am to 5 pm</p>
+  <p><b>Email us at: </b>sahilk876@gmail.com</p>
+  <p><b>phone number: </b>7353892678</p>
+  <p><b>Location: </b>medahalli,bangalore-560048<p>
+</div>
+
+
+</div>
+
+
+  </body>
+</html>
